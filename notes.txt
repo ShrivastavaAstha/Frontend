@@ -1,0 +1,22 @@
+React 
+It is a Javascript library for building user interfaces.
+
+The user interface(UI) is the point of human-computer interaction and communication in a device. This can include display screens,
+keyboards, a mouse and the appearance of a desktop.
+
+Component Based Approach:
+A Component is one of the core building blocks of React. In other wrds, we can say that every application you will develop in React
+will be made up of pieces called components.
+Components make the task of building UIs much easier.
+
+Declarative Approach:
+Declarative programming is a programming paradigm that express the logic of a computation without describing its control flow.
+
+DOM updates are handled gracefully
+Reusable Code
+React is designed for speed of implementing the application simplicity and scalability.
+
+node_module:
+node_modules folder is the repository of modules/library which you are using inside your project. What ever you are importing in your
+project that module or library should present inside the node_module folder.When you do npm install that time that module or the library
+install inside the node_module folder and one entry added in package.json file.
