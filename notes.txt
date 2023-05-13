@@ -28,3 +28,6 @@ A special fragment syntax.
 React also introduced a syntactical sugar for fragments.
 
 Expressions in JSX is written in curly braces {}.
+
+JSX Attribute in ReactJS :
+contentEditable allows the content to edit .

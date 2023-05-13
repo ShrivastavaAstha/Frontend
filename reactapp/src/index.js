@@ -136,4 +136,28 @@ ReactDOM.render(
   </>,
   document.getElementById("root")
 );
-//--------------------------------------------------------------------------
+//---------------------------------------------------------------------------
+
+//------------------------------- JSX Attribute -----------------------------
+// import React from "react";
+// import ReactDOM from "react-dom";
+
+const names = "Astha";
+const img1 = "https://picsum.photos/200/300";
+const img2 = "https://picsum.photos/250/300";
+const img3 = "https://picsum.photos/300/300";
+const links = "www.youtube.com";
+ReactDOM.render(
+  <>
+    <h1 contentEditable="true"> My name is {names} </h1>
+    <img src={img1} alt="random images" />
+    <img src={img2} alt="random images" />
+    <a href={links} target="_blank">
+      <img src={img3} alt="random images" />
+    </a>
+  </>,
+  document.getElementById("root")
+);
+//---------------------------------------------------------------------------
+
+//-------------------------------
