@@ -1,7 +1,7 @@
+import "./index.css";
 var React = require("react");
 var ReactDOM = require("react-dom");
 
-const arr = ["astha", "khushi", "roshni"];
 //In React it's possible for render() to return an array of elements.
 //ReactDOM.render("kya dikhana hai", "kaha dikhana hai", "cllback function");
 
@@ -150,11 +150,15 @@ const links = "www.youtube.com";
 ReactDOM.render(
   <>
     <h1 contentEditable="true"> My name is {names} </h1>
-    <img src={img1} alt="random images" />
-    <img src={img2} alt="random images" />
-    <a href={links} target="_blank">
-      <img src={img3} alt="random images" />
-    </a>
+    <h2 className="heading">My name is {names}</h2>
+
+    <div className="img_div">
+      <img src={img1} alt="random images" />
+      <img src={img2} alt="random images" />
+      <a href={links} target="_blank">
+        <img src={img3} alt="random images" />
+      </a>
+    </div>
   </>,
   document.getElementById("root")
 );
