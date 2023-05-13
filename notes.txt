@@ -22,3 +22,7 @@ project that module or library should present inside the node_module folder.When
 install inside the node_module folder and one entry added in package.json file.
 
 The html tags used under render in js is called JSX.
+React Fragment is better than div method as it does not create extra node and also takes less storage .
+
+A special fragment syntax.
+React also introduced a syntactical sugar for fragments.
