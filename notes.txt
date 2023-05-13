@@ -26,3 +26,5 @@ React Fragment is better than div method as it does not create extra node and al
 
 A special fragment syntax.
 React also introduced a syntactical sugar for fragments.
+
+Expressions in JSX is written in curly braces {}.
