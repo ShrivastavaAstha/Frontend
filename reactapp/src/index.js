@@ -147,6 +147,11 @@ const img1 = "https://picsum.photos/200/300";
 const img2 = "https://picsum.photos/250/300";
 const img3 = "https://picsum.photos/300/300";
 const links = "www.youtube.com";
+
+const heading = {
+  color: "#fa9191",
+  textTransform: "capitalize",
+};
 ReactDOM.render(
   <>
     <h1 contentEditable="true"> My name is {names} </h1>

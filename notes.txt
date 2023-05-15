@@ -1,5 +1,6 @@
 React 
 It is a Javascript library for building user interfaces.
+it has speed.
 
 The user interface(UI) is the point of human-computer interaction and communication in a device. This can include display screens,
 keyboards, a mouse and the appearance of a desktop.
@@ -12,6 +13,13 @@ Components make the task of building UIs much easier.
 Declarative Approach:
 Declarative programming is a programming paradigm that express the logic of a computation without describing its control flow.
 
+Installation:
+commands to install react ------>>
+  npm install -g create-react-app
+  create-react-app-version
+  create-react-app <projectname> //----------angle brackets are not included
+
+  
 DOM updates are handled gracefully
 Reusable Code
 React is designed for speed of implementing the application simplicity and scalability.
