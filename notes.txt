@@ -5,6 +5,19 @@ it has speed.
 The user interface(UI) is the point of human-computer interaction and communication in a device. This can include display screens,
 keyboards, a mouse and the appearance of a desktop.
 
+Advantages:
+1.Speed
+In browser, at any instance only one html file can be shown.
+If we navigate to any other html file, re-rendering of whole page takes place due to which the browser reloads.
+Such applications which contains many html files are called Multi-page applications, which are considered slow because of reloading
+of browsereach time.
+So, to avoid this, we use ReactJS, which works on the principle of Single Page Application. Therefore we stay on the same page(html file)
+and no reloading of browser takes place, hence the website runs smooth and fast.
+2.Re-usability(component based architecture)
+In React, if we observe a certain amount of html code, which is being used many times, then instead of writing the whole code each time,
+we make component for the repeating element, and call that component whwnever we need that set of html.
+Javascript functions same as React components.
+
 Component Based Approach:
 A Component is one of the core building blocks of React. In other wrds, we can say that every application you will develop in React
 will be made up of pieces called components.

@@ -151,12 +151,25 @@ const links = "www.youtube.com";
 const heading = {
   color: "#fa9191",
   textTransform: "capitalize",
+  textAlign: "center",
+  fontWeight: "bold",
+  textShadow: "0px 2px 4px green",
+  margin: "70px 0",
 };
 ReactDOM.render(
   <>
     <h1 contentEditable="true"> My name is {names} </h1>
-    <h2 className="heading">My name is {names}</h2>
-
+    {/* <h2 className="heading">My name is {names}</h2> */}
+    <h2
+      style={heading}
+      // {{
+      //   color: "#fa9191",
+      //   textTransform: "capitalize",
+      //   textAlign: "center",
+      // }}
+    >
+      My name is {name}
+    </h2>
     <div className="img_div">
       <img src={img1} alt="random images" />
       <img src={img2} alt="random images" />
