@@ -202,9 +202,11 @@ if (curDate >= 1 && curDate < 12) {
 }
 ReactDOM.render(
   <>
-  <div>
-  <h1>
-    Hello Sir,<span style={cssStyle}> {greeting}</span>
-  </h1>,
+    <div>
+      <h1>
+        Hello Sir,<span style={cssStyle}> {greeting}</span>
+      </h1>
+    </div>
+  </>,
   document.getElementById("root")
 );
