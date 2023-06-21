@@ -15,11 +15,11 @@ So, to avoid this, we use ReactJS, which works on the principle of Single Page A
 and no reloading of browser takes place, hence the website runs smooth and fast.
 2.Re-usability(component based architecture)
 In React, if we observe a certain amount of html code, which is being used many times, then instead of writing the whole code each time,
-we make component for the repeating element, and call that component whwnever we need that set of html.
+we make component for the repeating element, and call that component whenever we need that set of html.
 Javascript functions same as React components.
 
 Component Based Approach:
-A Component is one of the core building blocks of React. In other wrds, we can say that every application you will develop in React
+A Component is one of the core building blocks of React. In other words, we can say that every application you will develop in React
 will be made up of pieces called components.
 Components make the task of building UIs much easier.
 
@@ -31,7 +31,7 @@ commands to install react ------>>
   npm install -g create-react-app
   create-react-app-version
   create-react-app <projectname> //----------angle brackets are not included
-
+ create-react-app --version
   
 DOM updates are handled gracefully
 Reusable Code
@@ -52,3 +52,28 @@ Expressions in JSX is written in curly braces {}.
 
 JSX Attribute in ReactJS :
 contentEditable allows the content to edit .
+
+--------------------------------------------------------------------------------------------------------------------
+What is components?
+React works on single page application concept, which means only one index.html is there.
+Now with the help of Javascript logic we modify that one index file. Now with the help of 
+Javascript logic we modify that one index.html file and hence our app becomes single page 
+application and hence faster.
+
+What is component? 
+Components are basically like functions which return html/jsx.
+In index.js file, we return only one component that is called the parent component which App.js.
+All the other subcomponents and logic are done inside App.js
+
+Basic things to be taken care while making a component.
+1.A component file name must start with capital letter.
+2.A component must return all the html inside a single tag generally <> </>
+3.A component function must also be capitalized
+4.In component class is replaced by className.
+5.Each component must have closing tags. If there is no closing then use self closing tag in that reference.
+6.Attributes in JSX must be in camelcase convention
+  asthaShrivastava
+
+7.CSS/styling are used in similar fashion
+8.We cannot directly use javascript after return statement. If we want to use js or we do it before return.
+9.Whenever we want to use Javascript inside JSX then we can do it inside curly braces{}

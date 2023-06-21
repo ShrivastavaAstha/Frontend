@@ -42,8 +42,7 @@ ReactDOM.render(
 //----------->>Syntactical sugar for fragments
 ReactDOM.render(
   <>
-    <h1>Hello World!!</h1>
-    <p>Welcome to this new World!</p>
+    <h1>Hello World!!</h1> <p>Welcome to this new World!</p>
     <h2>Glad to see you all.</h2>
   </>,
 
